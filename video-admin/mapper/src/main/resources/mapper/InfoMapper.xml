@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lin.mapper.BgmMapper" >
+    <resultMap id="BaseResultMap" type="com.lin.pojo.Bgm" >
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="desc" property="desc" jdbcType="VARCHAR" />
+        <result column="code" property="infoId" jdbcType="INTEGER" />
+        <result column="num" property="num" jdbcType="INTEGER" />
+    </resultMap>
+
+    <select id="" resultMap="BaseResultMap">
+        SELECT info.*,count(article_code) as num
+        FROM info
+        LEFT  JOIN mid
+        ON info.`code`=mid.info_code
+        GROUP BY info.`code`
+        HAVING num = 0
+    </select>
+
+</mapper>

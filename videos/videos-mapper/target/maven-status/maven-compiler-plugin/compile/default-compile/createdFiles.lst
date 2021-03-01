@@ -1,0 +1,12 @@
+com\lin\mapper\UsersMapper.class
+com\lin\mapper\UsersFansMapper.class
+com\lin\mapper\UsersReportMapper.class
+com\lin\mapper\UsersMapperCustom.class
+com\lin\mapper\BgmMapper.class
+com\lin\mapper\VideosMapper.class
+com\lin\mapper\CommentsMapper.class
+com\lin\mapper\SearchRecordsMapper.class
+com\lin\mapper\SearchRecordsMapperCustom.class
+com\lin\mapper\CommentsMapperCustom.class
+com\lin\mapper\VideoMapperCustom.class
+com\lin\mapper\UsersLikeVideosMapper.class

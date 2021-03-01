@@ -1,0 +1,35 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/school?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT
+    username: root
+    password: jh19981120
+
+  mvc:
+    view:
+      prefix: /WEB-INF/center/
+      suffix: .jsp
+    favicon:
+      enabled: false
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+
+
+mybatis:
+  type-aliases-package: com.lin.pojo
+  mapper-locations: classpath:mapper/*.xml
+mapper:
+  mappers: com.lin.utils.MyMapper
+  identity: MYSQL
+  not-empty: false
+pagehelper:
+  helper-dialect: mysql
+  support-methods-arguments: true
+
+zk:
+  url: 8.129.23.16:2181
+  timeout: 3000
+server:
+  port: 9091

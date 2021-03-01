@@ -1,0 +1,9 @@
+package com.lin.mapper;
+
+import com.lin.pojo.UsersFans;
+import com.lin.utils.MyMapper;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UsersFansMapper extends MyMapper<UsersFans> {
+}

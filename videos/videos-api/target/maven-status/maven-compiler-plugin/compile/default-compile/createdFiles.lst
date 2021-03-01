@@ -1,0 +1,11 @@
+com\lin\controller\RegistLoginController.class
+com\lin\Swagger2.class
+com\lin\controller\BasicController.class
+com\lin\controller\VideoController.class
+com\lin\interceptor\MyInterceptor.class
+com\lin\Application.class
+com\lin\WebMvcConfig.class
+com\lin\controller\UserController.class
+com\lin\ZKCuratorClient.class
+com\lin\ZKCuratorClient$1.class
+com\lin\controller\BgmController.class

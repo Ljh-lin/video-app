@@ -1,0 +1,6 @@
+com\lin\service\BgmService.class
+com\lin\service\UserService.class
+com\lin\service\Impl\BgmServiceImpl.class
+com\lin\service\VideoService.class
+com\lin\service\Impl\UserServiceImpl.class
+com\lin\service\Impl\VideoServiceImpl.class
